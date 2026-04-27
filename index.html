@@ -1218,60 +1218,151 @@
 </section>
 
 <!-- ═══════════════════════ VEILLE ═══════════════════════ -->
+<!-- ═══════════════════════ VEILLE TECHNOLOGIQUE ═══════════════════════ -->
 <section id="veille">
   <div class="section-header">
-    <div class="section-tag">Thème de veille</div>
+    <div class="section-tag">Analyse & suivi</div>
     <h2 class="section-title">Veille technologique</h2>
-    <p class="section-sub">Sujet de veille : <strong>La cybersécurité dans les infrastructures réseau</strong> — 2024/2026</p>
+    <p class="section-sub">
+      Suivi des évolutions en cybersécurité et en infrastructures réseaux dans un contexte professionnel.
+    </p>
   </div>
 
-  <div class="card" style="margin-bottom: 1.5rem;">
-    <div class="card-label">Contexte de la veille</div>
+  <!-- INTRO -->
+  <div class="card" style="margin-bottom: 2rem;">
+    <div class="card-label">Objectif</div>
+    <div class="card-title">Intérêt de la veille</div>
     <p class="card-text">
-      Face à l'augmentation des cyberattaques (ransomwares, phishing, attaques DDoS), la sécurisation des infrastructures réseau est devenue un enjeu majeur pour les entreprises. Cette veille technologique suit les évolutions des outils, des menaces et des bonnes pratiques en matière de cybersécurité réseau sur deux années de formation.
+      Dans le cadre du BTS SIO option SISR, la veille technologique permet de suivre les évolutions du domaine informatique,
+      en particulier en cybersécurité et en administration des systèmes et réseaux.
+      <br><br>
+      Elle sert à identifier les nouvelles menaces, comprendre les solutions mises en place par les entreprises
+      et adapter les pratiques professionnelles. Cette démarche est essentielle dans un secteur en constante évolution.
     </p>
   </div>
 
-  <div class="veille-card">
-    <div class="veille-source">01 — Menaces / 2024</div>
-    <div class="veille-title">Montée en puissance des attaques par ransomware en 2024</div>
-    <p class="veille-body">
-      En 2024, les attaques par ransomware ont connu une augmentation significative, ciblant notamment les PME et les établissements de santé. Les cybercriminels exploitent des failles de sécurité dans les VPN et les protocoles RDP mal configurés pour s'introduire dans les réseaux d'entreprise. La double extorsion (chiffrement + vol de données) est devenue la norme.
-    </p>
-    <div class="veille-date">Source : ANSSI, Rapport sur la menace informatique 2024</div>
-  </div>
-
-  <div class="veille-card">
-    <div class="veille-source">02 — Technologie / 2024</div>
-    <div class="veille-title">Zero Trust : le nouveau paradigme de la sécurité réseau</div>
-    <p class="veille-body">
-      Le modèle Zero Trust ("ne jamais faire confiance, toujours vérifier") s'impose comme la référence en matière d'architecture sécurisée. Contrairement au modèle périmétrique traditionnel, Zero Trust impose une authentification forte pour chaque connexion, même en interne. Les entreprises adoptent des solutions comme Microsoft Azure AD Conditional Access ou des solutions SASE.
-    </p>
-    <div class="veille-date">Source : Gartner, Microsoft Security Blog — 2024</div>
-  </div>
-
-  <div class="veille-card">
-    <div class="veille-source">03 — Réglementation / 2025</div>
-    <div class="veille-title">Directive NIS2 : nouvelles obligations pour les entreprises européennes</div>
-    <p class="veille-body">
-      La directive NIS2, transposée en droit français en 2025, élargit considérablement le champ des entités soumises à des obligations de cybersécurité. Les entreprises de taille intermédiaire dans des secteurs critiques (énergie, transport, santé) doivent désormais déclarer leurs incidents, mettre en place des plans de continuité et effectuer des audits réguliers.
-    </p>
-    <div class="veille-date">Source : ANSSI, Journal Officiel de l'Union Européenne — 2025</div>
-  </div>
-
-  <div class="veille-card">
-    <div class="veille-source">04 — Outils / 2025</div>
-    <div class="veille-title">L'IA au service de la détection des intrusions (IDS/IPS)</div>
-    <p class="veille-body">
-      Les solutions de détection d'intrusion de nouvelle génération intègrent désormais l'intelligence artificielle pour détecter des comportements anormaux sur les réseaux. Des outils comme Darktrace ou Wazuh utilisent le machine learning pour identifier des menaces inconnues (zero-day). Cette approche comportementale complète les approches basées sur les signatures.
-    </p>
-    <div class="veille-date">Source : CISCO, Darktrace Blog, Wazuh Documentation — 2025</div>
-  </div>
-
-  <div class="card" style="margin-top: 1.5rem;">
-    <div class="card-label">Conclusion de la veille</div>
+  <!-- MÉTHODE -->
+  <div class="card" style="margin-bottom: 2rem;">
+    <div class="card-label">Méthodologie</div>
+    <div class="card-title">Sources et outils</div>
     <p class="card-text">
-      La cybersécurité réseau est en constante évolution. Les principales tendances observées sur deux ans sont : l'adoption du modèle Zero Trust, la montée de l'IA dans la détection des menaces, et le renforcement du cadre réglementaire européen (NIS2, RGPD). Pour un technicien SISR, maîtriser ces évolutions est essentiel pour proposer des infrastructures résilientes et conformes.
+      Pour réaliser cette veille, je consulte régulièrement plusieurs types de sources :
+      sites spécialisés en cybersécurité, articles techniques, actualités informatiques et plateformes de diffusion d’informations.
+      <br><br>
+      Cela permet d’obtenir des informations récentes, croisées et pertinentes sur les évolutions du secteur.
+    </p>
+  </div>
+
+  <!-- ÉVOLUTION DANS LE TEMPS -->
+  <div class="card" style="margin-bottom: 2rem;">
+    <div class="card-label">Évolution</div>
+    <div class="card-title">Transformation de la cybersécurité dans le temps</div>
+
+    <div class="timeline">
+
+      <div class="timeline-item">
+        <div class="timeline-date">Avant 2010</div>
+        <div class="timeline-role">Sécurité classique</div>
+        <div class="timeline-desc">
+          La protection des systèmes reposait principalement sur des antivirus et des pare-feu.
+          Les attaques étaient moins fréquentes et souvent moins structurées.
+        </div>
+      </div>
+
+      <div class="timeline-item">
+        <div class="timeline-date">2010 — 2020</div>
+        <div class="timeline-role">Montée des menaces</div>
+        <div class="timeline-desc">
+          Les cyberattaques deviennent plus nombreuses et plus complexes, notamment avec le développement
+          des ransomwares et du phishing. Les entreprises commencent à renforcer leur sécurité.
+        </div>
+      </div>
+
+      <div class="timeline-item">
+        <div class="timeline-date">2020 — aujourd’hui</div>
+        <div class="timeline-role">Approche globale</div>
+        <div class="timeline-desc">
+          La cybersécurité devient un enjeu stratégique. Les entreprises mettent en place des solutions
+          comme l’authentification forte, la surveillance continue et la sécurisation des environnements cloud.
+        </div>
+      </div>
+
+      <div class="timeline-item">
+        <div class="timeline-date">Perspectives</div>
+        <div class="timeline-role">Automatisation</div>
+        <div class="timeline-desc">
+          L’évolution actuelle s’oriente vers l’automatisation et l’utilisation de l’intelligence artificielle
+          pour détecter et traiter les menaces plus rapidement.
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- SUJETS DE VEILLE -->
+  <div class="veille-card">
+    <div class="veille-source">Cybersécurité</div>
+    <div class="veille-title">Augmentation des cyberattaques</div>
+    <div class="veille-body">
+      Les entreprises sont de plus en plus confrontées à des attaques informatiques, en particulier les ransomwares.
+      Ces attaques peuvent bloquer l’accès aux systèmes et entraîner des pertes importantes.
+      <br><br>
+      Pour y faire face, des mesures sont mises en place : sauvegardes régulières, segmentation des réseaux
+      et amélioration de la surveillance des systèmes.
+    </div>
+    <div class="veille-date">2025</div>
+  </div>
+
+  <div class="veille-card">
+    <div class="veille-source">Infrastructures</div>
+    <div class="veille-title">Développement du cloud</div>
+    <div class="veille-body">
+      Les entreprises migrent progressivement vers des solutions cloud afin d’améliorer la flexibilité
+      et l’accessibilité des services.
+      <br><br>
+      Cette évolution nécessite de nouvelles compétences, notamment en gestion des accès,
+      en sécurisation des données et en administration des environnements virtualisés.
+    </div>
+    <div class="veille-date">2025</div>
+  </div>
+
+  <div class="veille-card">
+    <div class="veille-source">Facteur humain</div>
+    <div class="veille-title">Rôle des utilisateurs</div>
+    <div class="veille-body">
+      Une grande partie des incidents de sécurité est liée à des erreurs humaines,
+      comme l’utilisation de mots de passe faibles ou le phishing.
+      <br><br>
+      Les entreprises mettent donc en place des actions de sensibilisation et des formations
+      afin de réduire ces risques.
+    </div>
+    <div class="veille-date">2025</div>
+  </div>
+
+  <!-- CONCLUSION -->
+  <div class="card" style="margin-top: 2rem;">
+    <div class="card-label">Conclusion</div>
+    <div class="card-title">Apports de la veille</div>
+    <p class="card-text">
+      Cette veille technologique me permet de suivre les évolutions du secteur et de mieux comprendre
+      les enjeux actuels en cybersécurité et en réseaux.
+      <br><br>
+      Elle contribue à développer mes compétences et à adopter une démarche professionnelle basée
+      sur l’analyse, l’anticipation et l’adaptation aux nouvelles technologies.
+    </p>
+  </div>
+</section>
+
+  <!-- CONCLUSION -->
+  <div class="card" style="margin-top: 2rem;">
+    <div class="card-label">Conclusion</div>
+    <div class="card-title">Apports de la veille</div>
+    <p class="card-text">
+      Cette veille technologique me permet de développer mes connaissances dans le domaine des réseaux
+      et de la cybersécurité.
+      <br><br>
+      Elle est essentielle pour rester à jour dans un secteur en constante évolution et pour devenir
+      un professionnel capable d’anticiper les risques et de sécuriser les infrastructures.
     </p>
   </div>
 </section>
