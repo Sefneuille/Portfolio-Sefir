@@ -961,7 +961,7 @@
   <a href="#" class="nav-logo" onclick="showSection('hero')">SEM<span>.</span></a>
   <ul class="nav-links">
     <li><a href="#" onclick="showSection('hero')" id="nav-hero" class="active">Accueil</a></li>
-    <li><a href="#" onclick="showSection('about')" id="nav-about">À propos</a></li>
+    <li><a href="#" onclick="showSection('about')" id="nav-about">Parcours</a></li>
     <li><a href="#" onclick="showSection('projets')" id="nav-projets">Projets</a></li>
     <li><a href="#" onclick="showSection('competences')" id="nav-competences">Tableau de compétences</a></li>
     <li><a href="#" onclick="showSection('veille')" id="nav-veille">Veille</a></li>
@@ -1003,42 +1003,123 @@
       </div>
     </div>
   </div>
+
+  <!-- ─── À PROPOS (section accueil) ─── -->
+  <div style="width:100%; max-width:900px; margin-top:4rem; padding-top:3rem; border-top:1px solid var(--border);">
+    <div style="font-family:'JetBrains Mono',monospace; font-size:0.72rem; color:var(--accent); letter-spacing:0.15em; text-transform:uppercase; margin-bottom:1.5rem; display:flex; align-items:center; gap:0.5rem;">
+      <span style="width:16px; height:1px; background:var(--accent); display:inline-block;"></span>
+      À propos
+    </div>
+    <div style="display:grid; grid-template-columns:1fr 1fr 1fr; gap:1.25rem;">
+      <div style="background:var(--card); border:1px solid var(--border); border-radius:14px; padding:1.4rem; grid-column:1 / span 2;">
+        <div style="display:flex; align-items:center; gap:1rem; margin-bottom:1rem;">
+          <div style="width:44px; height:44px; border-radius:50%; background:linear-gradient(135deg, rgba(0,212,255,0.2), rgba(124,58,237,0.2)); border:1px solid rgba(0,212,255,0.3); display:flex; align-items:center; justify-content:center; flex-shrink:0;"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="var(--accent)" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg></div>
+          <div>
+            <div style="font-family:'Syne',sans-serif; font-weight:700; font-size:1rem;">Sefir El Makrini</div>
+            <div style="font-family:'JetBrains Mono',monospace; font-size:0.7rem; color:var(--accent); letter-spacing:0.05em;">19 ans · Avignon</div>
+          </div>
+        </div>
+        <p style="font-size:0.88rem; color:var(--text2); line-height:1.75; font-weight:300;">
+          Passionné d'informatique depuis toujours, j'ai grandi entre les <strong style="color:var(--text)">jeux vidéo</strong> et la curiosité de comprendre ce qui se cache derrière les écrans. C'est naturellement que j'ai orienté mes études vers l'informatique après mon bac technologique — et je ne l'ai jamais regretté.
+        </p>
+        <p style="font-size:0.88rem; color:var(--text2); line-height:1.75; font-weight:300; margin-top:0.75rem;">
+          J'aime apprendre en continu, tester de nouvelles technologies et comprendre les systèmes en profondeur. Que ce soit configurer un réseau, administrer un serveur ou explorer la cybersécurité, chaque nouveau défi m'enthousiasme.
+        </p>
+      </div>
+      <div style="display:flex; flex-direction:column; gap:1rem;">
+        <div style="background:var(--card); border:1px solid var(--border); border-radius:14px; padding:1.2rem; flex:1;">
+          <div style="font-size:1.6rem; margin-bottom:0.5rem;"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="var(--accent)" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="6" width="20" height="12" rx="2"/><path d="M6 12h4M8 10v4"/><circle cx="16" cy="11" r="1" fill="var(--accent)"/><circle cx="18" cy="13" r="1" fill="var(--accent)"/></svg></div>
+          <div style="font-family:'Syne',sans-serif; font-weight:600; font-size:0.88rem; margin-bottom:0.3rem;">Passions</div>
+          <p style="font-size:0.8rem; color:var(--text2); line-height:1.6; font-weight:300;">Jeux vidéo, informatique, dessin numérique — des univers qui nourrissent ma créativité et ma logique.</p>
+        </div>
+        <div style="background:var(--card); border:1px solid var(--border); border-radius:14px; padding:1.2rem; flex:1;">
+          <div style="font-size:1.6rem; margin-bottom:0.5rem;"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="var(--accent)" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.35-4.35"/></svg></div>
+          <div style="font-family:'Syne',sans-serif; font-weight:600; font-size:0.88rem; margin-bottom:0.3rem;">Curiosité</div>
+          <p style="font-size:0.8rem; color:var(--text2); line-height:1.6; font-weight:300;">Toujours en veille, toujours en train d'apprendre. L'informatique évolue vite — c'est ce qui me plaît.</p>
+        </div>
+      </div>
+    </div>
+  </div>
 </section>
 
-<!-- ═══════════════════════ ABOUT ═══════════════════════ -->
+<!-- ═══════════════════════ PARCOURS ═══════════════════════ -->
 <section id="about">
   <div class="section-header">
-    <div class="section-tag">Qui suis-je</div>
-    <h2 class="section-title">À propos de moi</h2>
-    <p class="section-sub">Étudiant en BTS SIO option SISR, passionné par les infrastructures et la cybersécurité.</p>
+    <div class="section-tag">Mon itinéraire</div>
+    <h2 class="section-title">Parcours</h2>
+    <p class="section-sub">De la gestion-finance à l'informatique — un chemin tracé par la passion.</p>
   </div>
 
-  <div class="about-grid">
-    <div class="card">
-      <div class="card-label">Profil</div>
-      <div class="card-title">Sefir El Makrini</div>
-      <p class="card-text">
-        Étudiant en BTS SIO option SISR, je me forme aux métiers des réseaux, des systèmes et de la sécurité informatique. Curieux et rigoureux, j'aime comprendre comment les infrastructures fonctionnent et comment les sécuriser.
-      </p>
-      <br>
-      <p class="card-text">
-        Mon objectif : intégrer un environnement professionnel stimulant où je pourrai mettre à profit mes compétences en administration système et réseau.
-      </p>
-    </div>
-    <div class="card">
-      <div class="card-label">Formation</div>
-      <div class="timeline">
-        <div class="timeline-item">
-          <div class="timeline-date">2024 — 2026</div>
-          <div class="timeline-role">BTS SIO — Option SISR</div>
-          <div class="timeline-place">En cours — Formation spécialisée réseaux & infrastructures</div>
-          <div class="timeline-desc">Solutions d'Infrastructure, Systèmes et Réseaux</div>
+  <div style="display:grid; grid-template-columns:1fr 1fr; gap:2rem; margin-bottom:2.5rem;">
+    <div style="background:var(--card); border:1px solid var(--border); border-radius:14px; padding:1.5rem; position:relative; overflow:hidden;">
+      <div style="position:absolute; top:0; left:0; right:0; height:3px; background:linear-gradient(90deg, var(--accent2), #a78bfa);"></div>
+      <div style="font-family:'JetBrains Mono',monospace; font-size:0.68rem; color:var(--accent2); letter-spacing:0.12em; text-transform:uppercase; margin-bottom:0.8rem;">2022 — 2024</div>
+      <div style="display:flex; align-items:center; gap:0.75rem; margin-bottom:1rem;">
+        <div style="width:40px; height:40px; border-radius:10px; background:rgba(124,58,237,0.12); display:flex; align-items:center; justify-content:center; flex-shrink:0;"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#a78bfa" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg></div>
+        <div>
+          <div style="font-family:'Syne',sans-serif; font-weight:700; font-size:1rem;">Bac Technologique</div>
+          <div style="font-size:0.82rem; color:var(--text2); font-weight:300;">Gestion &amp; Finance</div>
         </div>
-        <div class="timeline-item">
-          <div class="timeline-date">2024</div>
-          <div class="timeline-role">Baccalauréat</div>
-          <div class="timeline-place">Diplôme obtenu</div>
-          <div class="timeline-desc">Obtention du bac, orientation vers l'informatique</div>
+      </div>
+      <p style="font-size:0.85rem; color:var(--text2); line-height:1.7; font-weight:300;">Formation technologique axée sur la gestion financière, la comptabilité et l'économie d'entreprise. Ces deux années m'ont apporté rigueur, sens de l'organisation et une culture business solide — des bases complémentaires à mon profil informatique.</p>
+      <div style="margin-top:1rem; display:flex; gap:0.5rem; flex-wrap:wrap;">
+        <span style="font-family:'JetBrains Mono',monospace; font-size:0.65rem; color:#a78bfa; background:rgba(124,58,237,0.1); border:1px solid rgba(124,58,237,0.2); padding:0.2rem 0.5rem; border-radius:4px;">Comptabilité</span>
+        <span style="font-family:'JetBrains Mono',monospace; font-size:0.65rem; color:#a78bfa; background:rgba(124,58,237,0.1); border:1px solid rgba(124,58,237,0.2); padding:0.2rem 0.5rem; border-radius:4px;">Gestion</span>
+        <span style="font-family:'JetBrains Mono',monospace; font-size:0.65rem; color:#a78bfa; background:rgba(124,58,237,0.1); border:1px solid rgba(124,58,237,0.2); padding:0.2rem 0.5rem; border-radius:4px;">Économie</span>
+        <span style="font-family:'JetBrains Mono',monospace; font-size:0.65rem; color:#a78bfa; background:rgba(124,58,237,0.1); border:1px solid rgba(124,58,237,0.2); padding:0.2rem 0.5rem; border-radius:4px;">Diplôme obtenu ✓</span>
+      </div>
+    </div>
+
+    <div style="background:var(--card); border:1px solid var(--border2); border-radius:14px; padding:1.5rem; position:relative; overflow:hidden; box-shadow:var(--glow);">
+      <div style="position:absolute; top:0; left:0; right:0; height:3px; background:linear-gradient(90deg, var(--accent), #29dcff);"></div>
+      <div style="font-family:'JetBrains Mono',monospace; font-size:0.68rem; color:var(--accent); letter-spacing:0.12em; text-transform:uppercase; margin-bottom:0.8rem;">2024 — 2026 · En cours</div>
+      <div style="display:flex; align-items:center; gap:0.75rem; margin-bottom:1rem;">
+        <div style="width:40px; height:40px; border-radius:10px; background:rgba(0,212,255,0.12); display:flex; align-items:center; justify-content:center; flex-shrink:0;"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="var(--accent)" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8M12 17v4"/></svg></div>
+        <div>
+          <div style="font-family:'Syne',sans-serif; font-weight:700; font-size:1rem;">BTS SIO — Option SISR</div>
+          <div style="font-size:0.82rem; color:var(--text2); font-weight:300;">Lycée Théodore Aubanel, Avignon</div>
+        </div>
+      </div>
+      <p style="font-size:0.85rem; color:var(--text2); line-height:1.7; font-weight:300;">BTS en 2 ans spécialisé en Solutions d'Infrastructure, Systèmes et Réseaux. Formation complète en administration réseau, cybersécurité et gestion de parcs informatiques — avec <strong style="color:var(--text)">un stage par année</strong> pour mettre en pratique les compétences acquises.</p>
+      <div style="margin-top:1rem; display:flex; gap:0.5rem; flex-wrap:wrap;">
+        <span class="tag">Réseaux &amp; Systèmes</span>
+        <span class="tag">Cybersécurité</span>
+        <span class="tag green">Stage 1A ✓</span>
+        <span class="tag green">Stage 2A ✓</span>
+      </div>
+    </div>
+  </div>
+
+  <div style="margin-bottom:2.5rem;">
+    <div style="font-family:'JetBrains Mono',monospace; font-size:0.72rem; color:var(--accent); letter-spacing:0.15em; text-transform:uppercase; margin-bottom:1.2rem; display:flex; align-items:center; gap:0.5rem;">
+      <span style="width:16px; height:1px; background:var(--accent); display:inline-block;"></span>
+      Expériences en entreprise
+    </div>
+    <div style="display:grid; grid-template-columns:1fr 1fr; gap:1.25rem;">
+      <div style="background:var(--card); border:1px solid var(--border); border-radius:14px; padding:1.4rem;">
+        <div style="display:flex; align-items:center; gap:0.6rem; margin-bottom:0.8rem;">
+          <div style="width:8px; height:8px; border-radius:50%; background:var(--accent3); flex-shrink:0;"></div>
+          <div style="font-family:'JetBrains Mono',monospace; font-size:0.68rem; color:var(--accent3); letter-spacing:0.08em; text-transform:uppercase;">Stage 1ère année · Juin 2025</div>
+        </div>
+        <div style="font-family:'Syne',sans-serif; font-weight:600; font-size:0.95rem; margin-bottom:0.4rem;">Stage — 1ère année BTS SIO</div>
+        <p style="font-size:0.83rem; color:var(--text2); line-height:1.6; font-weight:300;">Immersion en environnement professionnel réel : gestion des VLANs, assistance informatique, support tickets et déploiement de serveurs Windows.</p>
+        <div style="margin-top:0.8rem; display:flex; gap:0.4rem; flex-wrap:wrap;">
+          <span class="tag">VLANs</span>
+          <span class="tag">Windows Server</span>
+          <span class="tag green">Helpdesk</span>
+        </div>
+      </div>
+      <div style="background:var(--card); border:1px solid var(--border); border-radius:14px; padding:1.4rem;">
+        <div style="display:flex; align-items:center; gap:0.6rem; margin-bottom:0.8rem;">
+          <div style="width:8px; height:8px; border-radius:50%; background:var(--accent3); flex-shrink:0;"></div>
+          <div style="font-family:'JetBrains Mono',monospace; font-size:0.68rem; color:var(--accent3); letter-spacing:0.08em; text-transform:uppercase;">Stage 2ème année · Terminé</div>
+        </div>
+        <div style="font-family:'Syne',sans-serif; font-weight:600; font-size:0.95rem; margin-bottom:0.4rem;">Stage — 2ème année BTS SIO</div>
+        <p style="font-size:0.83rem; color:var(--text2); line-height:1.6; font-weight:300;">Stage axé sur le numérique et la transmission des savoirs : formation à l'informatique pour des particuliers, sensibilisation aux bonnes pratiques et initiation à la cybersécurité.</p>
+        <div style="margin-top:0.8rem; display:flex; gap:0.4rem; flex-wrap:wrap;">
+          <span class="tag green">Formation particuliers</span>
+          <span class="tag purple">Cybersécurité</span>
+          <span class="tag">Numérique</span>
         </div>
       </div>
     </div>
@@ -1088,25 +1169,13 @@
     </div>
 
     <div class="project-card">
-      <div class="project-banner net"></div>
-      <div class="project-body">
-        <div class="project-tags">
-          <span class="tag">HTML/CSS</span>
-          <span class="tag green">Web</span>
-        </div>
-        <div class="project-name">Projet Netflux</div>
-        <p class="project-desc">Création d'un site web en HTML/CSS inspiré des plateformes de streaming. Mise en pratique des bases du développement web front-end et de la structuration d'une interface utilisateur.</p>
-      </div>
-    </div>
-
-    <div class="project-card">
       <div class="project-banner sec"></div>
       <div class="project-body">
         <div class="project-tags">
           <span class="tag purple">Groupe</span>
           <span class="tag">Collaboration</span>
         </div>
-        <div class="project-name">Projet en groupe — Julien Romeuf</div>
+        <div class="project-name">Projet GSB</div>
         <p class="project-desc">Réalisation d'un projet informatique en binôme avec Julien Romeuf. Travail en mode projet : répartition des tâches, collaboration et mise en commun des compétences.</p>
       </div>
     </div>
